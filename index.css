@@ -240,7 +240,7 @@ Step-1
     line-height: 1.6;
     margin-top: 0;
 }
-.step-item:hover 
+.step-item i:hover 
 {
     transform: scale(1.1, 1.1);
 }
@@ -506,6 +506,10 @@ This is a Testimonials section.
     width: 80px;
     margin-bottom: 25px;
     border-radius: 50%;
+}
+.testimonial-item img:hover
+{
+    transform: scale(1.1, 1.1);
 }
 
 /*
