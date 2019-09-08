@@ -523,6 +523,17 @@ This is a Follow section with an E-mail.
     display: flex;
     justify-content: stretch;
 }
+#subscribe-btn
+{
+     -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0        6px 20px 0 rgba(0,0,0,0.19);
+}
+#subscribe-btn:hover
+{
+    background-color: #FF0055;
+    color: white;
+}
 
 /*
 *******************************************
